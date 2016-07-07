@@ -1,0 +1,347 @@
+﻿/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+body {
+  font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+}
+
+.nav a {
+    color:#007ee5 !important;
+    font-size:140%;
+    font-weight:300;
+}
+.navbar-header a {
+    color:#007ee5!important;
+    padding-right:100px;
+    font-size:160%;
+    font-weight:800;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    line-height:120px;
+     color: #007ee5;
+}
+h3 {
+    line-height:30px;
+    padding-bottom:20px;
+
+}
+h4 {
+    line-height:40px;
+    padding-bottom:20px;
+}
+h5 {
+    line-height:20px;
+    padding-bottom:40px;
+}
+
+p {
+    line-height:30px;
+    padding-bottom:10px;
+    font-size:110%;
+    font-weight:400;
+}
+
+
+.top-pad{
+padding-top:50px;
+}
+
+.space-pad {
+    padding-bottom:50px;
+}
+
+.for-exp-sect{
+ 
+}
+
+.for-full-back {
+     /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=100);
+
+  /* Netscape */
+  -moz-opacity: 1.0;
+
+  /* Safari 1.x */
+  -khtml-opacity: 1.0;
+
+  /* Good browsers */
+  opacity: 0.999;
+}
+
+section {
+    padding-top:30px;
+
+    padding-bottom:120px;
+}
+
+/*=======================================
+    COLOR CODES
+==================================================*/
+.color-white {
+   background-color:#fff!important;
+}
+.color-dark {
+   background-color:#696969!important;
+}
+
+.color-light {
+   background-color:#B2BAC2!important;
+}
+.main-color-red {
+    color: #DF0000;
+}
+/*=======================================
+    HEADER STYLES
+==================================================*/
+.head-main {
+    font-size:500% !important;
+    font-weight:600!important;
+    color:#fff!important;
+    padding:50px 20px 0px 20px;
+}
+.head-sub-main {
+    font-size:200%!important;
+    font-weight:600!important;
+    color:#fff!important;
+    padding:0px 20px 30px 20px;
+}
+.head-last {
+  
+    padding:5px 20px 500px 20px;
+}
+
+/*=======================================
+    NAVIGATION STYLES
+==================================================*/
+
+
+nav {
+	position: absolute;
+	width: 100%;
+  background: white;
+  z-index:99;
+}
+.fixed {
+	position: fixed; 
+	top: 0; 
+	min-height: 50px; 
+	z-index: 99;
+}
+
+.navbar-inverse {
+background-color: white;
+border-color: #7b8994;
+}
+
+/*=======================================
+    WORDS /ABOUT STYLES
+==================================================*/
+
+.about-div {
+	width: 100%;
+min-height: 100px;
+background-color: rgba(209, 209, 209, 0.24);
+box-shadow: none;
+border: 0;
+padding: 50px 20px 30px 20px;
+margin-bottom:20px;
+}
+#Parallax-one {
+    background-image: url("../img/main_back.jpg"); 
+padding: 0;
+background-repeat: no-repeat;
+background-position: center 0;
+background-size: cover;
+background-attachment: fixed;
+min-height:300px;
+}
+.for-parallax-one {
+    
+    color:#fff;
+    padding:40px 20px 40px 20px;
+    font-size:25px;
+}
+
+.std-text { 
+  padding-left:30px;
+
+}
+
+.exp_frac_sect{
+
+width: 100%;
+min-height: 100px;
+background-color: rgba(209, 209, 209, 0.24);
+box-shadow: none;
+border: 0;
+padding: 50px 20px 30px 20px;
+margin-bottom:20px;
+}
+
+.border-addon{
+  border:4px; 
+border-color:black;
+ border-radius:6px;
+
+}
+
+/*=======================================
+    IMAGE STYLES
+==================================================*/
+
+.porait-grid{
+  size:50%;
+  margin:auto;
+}
+
+.self-portrait{
+  max-height:250px;
+  margin:auto;
+  border:2px solid #47525d
+
+}
+.std-img
+{
+
+  max-height:400px;
+  margin:auto;
+}
+.row-eq-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-eq-height > div {
+  flex: 1;
+  /*min-width: 300px;*/
+}
+
+/*=======================================
+    PRICING STYLES
+==================================================*/
+
+
+.plan {
+   background: #eef1f3;
+    padding: 0 0 15px 0;
+    margin: 30px 0px;
+    list-style: none;
+    text-align: center;
+  
+    -webkit-transition: all 0.2s ease;
+       -moz-transition: all 0.2s ease;
+         -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+}
+
+.plan:hover {
+          -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.plan li {
+    padding: 15px 0px;
+    color: #434749;
+    border-top: 1px dashed #000;
+}
+
+.plan li.plan-head {
+   padding: 15px 0px;
+background-color: #585858;
+color: #FFFFFF;
+line-height: 20px;
+font-size: 20px;
+font-weight: 600;
+border: none;
+   }
+
+.plan li.main-price {
+   padding: 25px 0px;
+background-color: #BEBEBE;
+color: #DF0000;
+border: none;
+font-weight: 900;
+font-size: 30px;
+}
+
+.for-home{
+/*background-image: url("../img/1_pano.jpg"); */
+padding: 0;
+background-size:contain;
+}
+
+#Parallax-two {
+background-image: url("../img/main_back.jpg");
+padding: 0;
+background-repeat: no-repeat;
+background-position: center 0;
+background-size: cover;
+background-attachment: fixed;
+min-height:300px;
+
+}
+.for-parallax-two {
+    
+    color:#fff;
+    padding:40px 20px 40px 20px;
+    font-size:25px;
+}
+
+/*=======================================
+    CONTACT STYLES
+==================================================*/
+
+#social-icon a {
+    color:#616161!important;
+    margin-right:10px;
+}
+.contact-cls {
+    font-size:20px;
+    line-height:40px;
+}
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:white;
+    color:#007ee5;
+    padding:20px 50px 20px 50px;
+    text-align:right;
+    font-size: 120%;
+}
+
